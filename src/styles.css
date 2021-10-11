@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap");
+.App {
+  font-family: "Ubuntu Mono", monospace;
+  width: 50%;
+  margin: 5rem auto;
+}
+
+:root {
+  --primary-color: #a2979747;
+  --border-color: #808080;
+  --text-color: rgb(80, 71, 71);
+}
+
+.movieCategories button {
+  padding: 0.5rem;
+  margin: 0.2rem;
+  margin-left: 0rem;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  border-radius: 0.4rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.movieList h3 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+.movieList p {
+  margin-block-start: 0.5rem;
+  margin-block-end: 0rem;
+  font-size: 0.9rem;
+}
+
+.movieList {
+  padding: 0.7rem;
+  margin: 0.5rem 0rem;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  border-radius: 0.4rem;
+}
