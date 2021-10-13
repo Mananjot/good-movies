@@ -93,6 +93,37 @@ export default function App() {
           <p key={category.rating}> Rating: {category.rating} </p>
         </div>
       ))}
+      <footer>
+        <ul className="list-inline">
+          <li>
+            <a
+              href="https://github.com/Mananjot/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/mananjot-singh-kohli-b349a4185/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/singh_mananjot"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="fab fa-twitter-square"></i>
+            </a>
+          </li>
+        </ul>
+      </footer>
     </div>
   );
 }
